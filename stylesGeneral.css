@@ -1,0 +1,12 @@
+body {
+    background-color: #fafbfe !important;
+    color: #4c7eb8 !important;
+}
+
+.nav_bar {
+    background-color: #4c7eb8 !important;
+    border-bottom: solid 1px antiquewhite !important ;
+}
+a {
+    color: #4c7eb8 !important;
+}
