@@ -109,6 +109,10 @@ ol, li{
 }
 
 @media (min-width: 768px){
+    #nav_bar{
+        padding-left: 20%;
+        padding-right: 20%;
+    }
     #firstPicContainer {
          height: 120vh !important;
          background-image: url('./images/mainPic.jpeg');
@@ -199,3 +203,6 @@ footer {
     font-style: normal;
    /* border-bottom: solid 1px antiquewhite !important ;*/
 }
+
+/*icons*/
+
