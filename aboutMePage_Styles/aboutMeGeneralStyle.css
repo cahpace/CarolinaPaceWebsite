@@ -24,15 +24,7 @@ a {
 ol, li{
     list-style: none;
 }
-@media (min-width: 577px){
-    #cellphoneScreen{
-        display: none;
-    }
-    #form-section{
-        width: 60%;
-        
-    }
-}
+
 h1{
     color: var(--main-blue);
     font-family:  "Patua One", serif !important;
