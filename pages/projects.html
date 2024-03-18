@@ -6,9 +6,52 @@
     <title>Projetos</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="../stylesGeneral.css">
+    <link rel="stylesheet" href="../styles/projectsStyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-    <ul class="nav justify-content-sm-evenly pb-2 pt-5 nav_bar">
+
+  <!------------------------------------Menu bar--------------------------------------------->
+
+    <!--links do menu que vão ficar escondidos na tela pequena-->
+  <div id="cellphoneScreen">
+    <div class="topnav" id="myLinks">
+      <ul class="nav justify-content-sm-evenly  nav_bar" >
+        <li class="nav-item">
+          <a href="javascript:void(0);" class="icon" onclick="menu()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="../index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./aboutMe.html">Sobre mim</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./trips.html">Viagens</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./projects.html">Projetos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./coffee.html">Cafés</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="./contact.html" >Contato</a>
+        </li>
+      </ul>
+    </div>
+    <!--icone menu-->
+    <div  id="iconMenu">
+      <a href="javascript:void(0);" class="icon" onclick="menu()">
+      <i class="fa fa-bars"></i>
+      </a>
+    </div>
+  </div>
+  
+  <!--menu bar for bigger screens--> 
+    <ul class="nav justify-content-sm-evenly pb-2 pt-5 nav_bar" id="navBiggerScreens">
         <li class="nav-item">
           <a class="nav-link active" href="../index.html">Home</a>
         </li>
@@ -28,10 +71,42 @@
           <a class="nav-link" href="./contact.html">Contato</a>
         </li>
       </ul>
+<!---------------------------------page content---------------------------------------->  
+    <h1 class="container text-center mt-5">Projetos</h1>
+    <p class="text-center">descrição dessa seção</p>
+  <section class="container">
+    <div class="d-flex">
+      <div class="me-3 project">imagem projeto</div>
+      <div class="project">descrição do projeto mais icones das tecnologias usadas</div>
+    </div>
 
-      <h1 class="container text-center mt-5">Projetos</h1>
+    <div class="d-flex">
+      <div class="me-3 project">imagem projeto</div>
+      <div class="project">descrição do projeto mais icones das tecnologias usadas</div>
+    </div>
+
+    <div class="d-flex">
+      <div class="me-3 project">imagem projeto</div>
+      <div class="project">descrição do projeto mais icones das tecnologias usadas</div>
+    </div>
+
+
+  </section>
+
+<!--------------------------------------Footer----------------------------------------------->
+<footer class="mt-5 pb-4 mb-0">
+  <ul class="d-flex flex-md-row justify-content-evenly pb-2 pt-5 ps-5 pe-5" id="footerItems">
+    <li>Home</li>
+    <li>Sobre Mim</li>
+    <li>Viagens</li>
+    <li>Projetos</li>
+    <li>Cafés</li>
+    <li>Contato</li>
+  </ul>
+</footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-</body>
+    <script src="../menuFunction.js"></script>
+  </body>
 </html>
