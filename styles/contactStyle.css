@@ -72,6 +72,19 @@
         width: 60%;
         
     }
+    .nav-item{
+        padding: 0 1.5rem;
+    }
+    #socialMediaIcons{
+        background-color: var(--main-blue);
+        background-image: linear-gradient(to right, var(--main-blue) 70%, #e6ecf34d);
+        display: flex;
+        justify-content: flex-end;
+    }
+    i{
+        color: var(--main-background);
+        font-size: 1.5rem;
+    }
 }
 h1{
     color: var(--main-blue);
@@ -79,3 +92,22 @@ h1{
     font-weight: 400;
     font-style: normal;
 }
+
+#buttonSubmit{
+    background-color: var(--main-blue);
+    color: var(--main-background);
+    width: 100%;
+    max-width: 25rem;
+    display: flex;
+    justify-content: center;  
+}
+#buttonSubmit:hover {
+    border: brightness(110%);
+   
+}
+
+#iconsContact i{
+    color: var(--main-blue);
+}
+
+
