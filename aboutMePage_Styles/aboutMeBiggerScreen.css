@@ -25,23 +25,34 @@
         max-width: 60%;
         margin-left: 15%;
     }
+
     #profissional-info{
-        max-width: 60%;
+        display: flex;
+        justify-content: flex-end;  
+       /* max-width: 60%;
         margin-left: 30%;
-        /*display: flex;
+        display: flex;
         flex-direction: column;
         position: relative;
         align-self: flex-end;
         right: 10px;
         bottom: 10px;*/
     }
+    #profissional-info div{
+        max-width: 60%;
+        margin-right: 10%;
+    }
     #other-info{
         max-width: 60%;
         margin-left: 15%;
     }
     #hobbies{
+        display: flex;
+        justify-content: flex-end;   
+    }
+    #hobbies div {
         max-width: 60%;
-        margin-left: 30%;
+        margin-right: 10%;
     }
     
 }
