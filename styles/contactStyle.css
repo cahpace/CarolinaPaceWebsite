@@ -7,6 +7,25 @@
     --main-blue: #4c7eb8 !important;
 }
 
+#socialMediaIcons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 35%;
+    margin-left: 1px;
+}
+#socialMediaIcons a {
+    background-color: var(--main-blue);
+    padding: 0.30rem 0.7rem;
+    margin-bottom: 1px;
+    border-radius: 25px;
+}
+#iconsContact i{
+    color: var(--main-blue);
+}
+
+
 /*Cellphones*/
 @media (max-width: 576px){
     /*the regular menu only shows when the screen is bigger than 576px*/
@@ -41,7 +60,7 @@
     }
     
     /* Style the hamburger menu */
-    i{
+    #cellphoneScreen i{
         background-color: var(--main-blue);
         /*display: block;
         position: absolute;
@@ -50,7 +69,7 @@
         top: 0;*/
         width: 100%;
         padding: 1rem;
-    } 
+    }
  
     #form-section{
         width: 80%;
@@ -75,12 +94,7 @@
     .nav-item{
         padding: 0 1.5rem;
     }
-    #socialMediaIcons{
-        background-color: var(--main-blue);
-        background-image: linear-gradient(to right, var(--main-blue) 70%, #e6ecf34d);
-        display: flex;
-        justify-content: flex-end;
-    }
+    
     i{
         color: var(--main-background);
         font-size: 1.5rem;
@@ -106,8 +120,5 @@ h1{
    
 }
 
-#iconsContact i{
-    color: var(--main-blue);
-}
 
 
