@@ -2,6 +2,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Patua+One&display=swap');
 
+/*
+the media queries have to be the last rules to be aplied, the last rules at the sheet;
+put the mq with min-width, not max;
+
+cellphone: 
+tablet: 480px -768px
+smaller screens, laptops: 768px - 1024px
+desktop: 1024px - 1200px
+*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -20,7 +31,7 @@ body {
 @media (min-width: 577px){
     .nav_bar {
         background-color: var(--main-blue) !important;
-        background-image: linear-gradient(to right, var(--main-blue) 70%, #e6ecf34d);
+        /*background-image: linear-gradient(to right, var(--main-blue) 70%, #e6ecf34d);*/
         font-family: "Lato", sans-serif !important;
         font-weight: 400;
         font-style: normal;
@@ -37,7 +48,7 @@ ol, li{
 
 footer {
     background-color: var(--main-blue) !important;
-    background-image: linear-gradient(to right, var(--main-blue) 70%, #e6ecf34d);
+    /*background-image: linear-gradient(to right, var(--main-blue) 70%, #e6ecf34d);*/
     color: var(--main-background) !important;
     font-family: "Lato", sans-serif !important;
     font-weight: 400;
