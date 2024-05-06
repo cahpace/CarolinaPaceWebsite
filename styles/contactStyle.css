@@ -24,7 +24,25 @@
 #iconsContact i{
     color: var(--main-blue);
 }
+h1{
+    color: var(--main-blue);
+    font-family:  "Patua One", serif !important;
+    font-weight: 400;
+    font-style: normal;
+}
 
+#buttonSubmit{
+    background-color: var(--main-blue);
+    color: var(--main-background);
+    width: 100%;
+    max-width: 25rem;
+    display: flex;
+    justify-content: center;  
+}
+#buttonSubmit:hover {
+    border: brightness(110%) !important;
+   
+}
 
 /*Cellphones*/
 @media (max-width: 576px){
@@ -99,25 +117,6 @@
         color: var(--main-background);
         font-size: 1.5rem;
     }
-}
-h1{
-    color: var(--main-blue);
-    font-family:  "Patua One", serif !important;
-    font-weight: 400;
-    font-style: normal;
-}
-
-#buttonSubmit{
-    background-color: var(--main-blue);
-    color: var(--main-background);
-    width: 100%;
-    max-width: 25rem;
-    display: flex;
-    justify-content: center;  
-}
-#buttonSubmit:hover {
-    border: brightness(110%);
-   
 }
 
 
