@@ -6,11 +6,19 @@
     <title>Home</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="index.css">
 </head>
 <body>
+
+  <!--TODO: Fazer nova escolha de cores para id visual e para textos-->
+  <!--TODO: edit folhas styes-->
+
 <!------------------------------------social media icons--------------------------------------------->
  
+<!--TODO: social media icons-->
+
+<!--TODO: testar image backround diferentes tipos de absolute, top, left, etc - posicionar imagem dentro da div-->
+
 <!--navbar teste-->
 
 <nav class="navbar bg-body-tertiary navbar-expand-sm bg-primary" id="navbarBackgroundColor">
@@ -30,19 +38,19 @@
             <a class="nav-link active" href="./index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/aboutMe.html">Sobre mim</a>
+            <a class="nav-link" href="./pages/AboutMe/aboutMe.html">Sobre mim</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/trips.html">Viagens</a>
+            <a class="nav-link" href="./pages/Trips/trips.html">Viagens</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/projects.html">Projetos</a>
+            <a class="nav-link" href="./pages/Projects/projects.html">Projetos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/coffee.html">Cafés</a>
+            <a class="nav-link" href="./pages/Coffee/coffee.html">Cafés</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="./pages/contact.html" >Contato</a>
+            <a class="nav-link" href="./pages/Contact/contact.html" >Contato</a>
           </li>
         </ul>
       </div>
@@ -50,94 +58,15 @@
   </div>
 </nav>
 
-<!-----------------------------------------Nav Bar -------------------------------------------------->
- <!--links do menu que vão ficar escondidos na tela pequena-->
- <!--
- <div id="cellphoneScreen">
-  <div class="topnav" id="myLinks">
-    <ul class="nav justify-content-sm-evenly  nav_bar" >
-      <li class="nav-item">
-        <a href="javascript:void(0);" class="icon" onclick="menu()">
-          <i class="fa fa-bars"></i>
-        </a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link active" href="./index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/aboutMe.html">Sobre mim</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/trips.html">Viagens</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/projects.html">Projetos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/coffee.html">Cafés</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/contact.html" >Contato</a>
-      </li>
-    </ul>
-  </div>-->
-  <!--icone menu
-  <div  id="iconMenu">
-    <a href="javascript:void(0);" class="icon" onclick="menu()">
-    <i class="fa fa-bars"></i>
-    </a>
-  </div>
-</div>-->
-
-<!--menu bar for bigger screens 
-  <ul class="nav justify-content-sm-evenly pb-2 pt-5 nav_bar" id="navBiggerScreens">
-      <li class="nav-item">
-        <a class="nav-link active" href="./index.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/aboutMe.html">Sobre mim</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/trips.html">Viagens</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/projects.html">Projetos</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/coffee.html">Cafés</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="./pages/contact.html">Contato</a>
-      </li>
-    </ul>-->
-    <!--
-    <ul class="nav justify-content-sm-evenly pb-2 pt-5" id="nav_bar">
-      TODO: na tela menor, colocar hamburguer menu
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./pages/aboutMe.html">Sobre mim</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./pages/trips.html">Viagens</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./pages/projects.html"> &ltProjetos/&gt </a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./pages/coffee.html">Cafés</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="./pages/contact.html">Contato</a>
-        </li>
-      </ul>-->
 
 <!-----------------------------------------First Content -------------------------------------------------->
       <div class="mb-4" id="firstPicContainer">
          <h2 class="text-center container" id="myNameFirstContent">CAROLINA PACE</h2>
          <p id="phrase" class="text-center container">"Life is a journey, not a destination"</p>
+         <button id="botaoTeste" class="text-center center">Sobre mim</button>
       </div>
+
+<!--TODO: colocar um botão com o link para sobre mim-->
 
       <!--
       <div id="picContainer" class="mt-0 mb-5">
@@ -147,50 +76,53 @@
 <!-----------------------------------------Cards Content -------------------------------------------------->
       <section class="d-flex container flex-column  flex-md-row" id="card-trips">
 
+<!--TODO: arrumar tamanho cards para que fiquem do mesmo tamanho, colocar imaem no de programação-->
+
         <!--card about trips-->
-        <div class="card container mb-4 mb-md-0 me-md-2 text-center" style="width: 18rem;">
+        <div class="card container mb-4 mb-md-0 me-md-2 text-center cardHeight" style="width: 18rem;">
             <img src="./images/BuenosAires.jpeg" class="card-img-top container pt-4 cardTripImage" alt="..." >
             <div class="card-body">
               <h5 class="card-title">Minhas Viagens</h5>
               <p class="card-text">Uma das coisas que mais amo fazer é viajar. Aqui deixo alguns relatos de viagens que fiz</p>
-              <a href="./pages/trips.html" class="btn button-style">Minhas viagens</a>
+              <a href="./pages/Trips/trips.html" class="btn button-style">Minhas viagens</a>
             </div>
           </div>
 
           <!--card about projects-->
-          <div class="card container mb-4 mb-md-0 me-md-2 " style="width: 18rem;">
+          <div class="card container mb-4 mb-md-0 me-md-2 cardHeight" style="width: 18rem;">
             <img src="..." class="card-img-top " alt="...">
             <div class="card-body">
               <h5 class="card-title">Programação</h5>
               <p class="card-text">Descori grande paixão em desenvolver projetos com a programação. Aqui coloquei alguns projetos.</p>
-              <a href="./pages/projects.html" class="btn button-style">Projetos de programação</a>
+              <a href="./pages/Projects/projects.html" class="btn button-style">Projetos de programação</a>
             </div>
           </div>
 
           <!--card about coffee-->
-          <div class="card container" style="width: 18rem;">
+          <div class="card container cardHeight" style="width: 18rem;">
             <img src="./images/cafeCard.jpeg" class="card-img-top container pt-4 cardTripImage" alt="...">
             <div class="card-body">
               <h5 class="card-title">Café</h5>
               <p class="card-text">Para mim, o dia só começa depois de uma xícara de café. Amo tomar café e amo descorir cafés para traalhar e estudar. Aqui coloquei algumas coisas relacionadas à esse tema que amo.</p>
-              <a href="./pages/coffee.html" class="btn  button-style">Cafés</a>
+              <a href="./pages/Coffee/coffee.html" class="btn  button-style">Cafés</a>
             </div>
           </div>
     
       </section>
 
+      <!--TODO: fazer carousel com imagens, editar imagens-->
 <!--------------------------------------------Carousel--------------------------------------------------------->
-<!--
-      <div id="carousel" class="carousel slide mt-5 container mb-4">
+      
+      <div id="carousel" class="carousel slide mt-5 container-fluid mb-4">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="./images/Brl.jpeg" class="d-block imageCarousel" alt="...">
+            <img src="./images/Bariloche.jpeg" class="d-block w-100 imageCarousel" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./images/BsAs.jpeg" class="d-block imageCarousel" alt="...">
+            <img src="./images/BsAs-resize.jpg" class="d-block imageCarousel" alt="...">
           </div>
           <div class="carousel-item">
-            <img src="./images/Fort.jpeg" class="d-block imageCarousel" alt="...">
+            <img src="./images/fortLauderDale.jpeg" class="d-block imageCarousel" alt="...">
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
@@ -203,7 +135,7 @@
         </button>
       </div>
 
--->
+
 <!------------------Contact Section--------------------------------->
 
 
